@@ -6,6 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		788719D82D02960E00F14C2D /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 788719D72D02960E00F14C2D /* GoogleMaps */; };
+		788719DB2D02A1A800F14C2D /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 788719DA2D02A1A800F14C2D /* GooglePlaces */; };
+		788719DD2D02A1A800F14C2D /* GooglePlacesSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 788719DC2D02A1A800F14C2D /* GooglePlacesSwift */; };
+		789A10982D063F1900F72610 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 789A10972D063F1900F72610 /* SDWebImage */; };
+		789A109A2D063F1900F72610 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 789A10992D063F1900F72610 /* SDWebImageMapKit */; };
+		78A67AC52D03EA0C00107394 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 78A67AC42D03EA0C00107394 /* Stripe */; };
+		78A67AC72D03EA0C00107394 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = 78A67AC62D03EA0C00107394 /* StripeApplePay */; };
+		78A67AC92D03EA0C00107394 /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = 78A67AC82D03EA0C00107394 /* StripeCardScan */; };
+		78A67ACB2D03EA0C00107394 /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = 78A67ACA2D03EA0C00107394 /* StripeFinancialConnections */; };
+		78A67ACD2D03EA0C00107394 /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = 78A67ACC2D03EA0C00107394 /* StripeIdentity */; };
+		78A67AD12D03EF4200107394 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 78A67AD02D03EF4200107394 /* FirebaseFunctions */; };
+		78A67AD32D03FBE300107394 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 78A67AD22D03FBE300107394 /* StripePaymentSheet */; };
+		78A67AD52D03FBE300107394 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = 78A67AD42D03FBE300107394 /* StripePayments */; };
+		78A67AD72D03FBE300107394 /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 78A67AD62D03FBE300107394 /* StripePaymentsUI */; };
+		78CC193D2CF2BD7300CE3B7F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 78CC193C2CF2BD7300CE3B7F /* FirebaseAnalytics */; };
+		78CC193F2CF2BD7300CE3B7F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 78CC193E2CF2BD7300CE3B7F /* FirebaseAuth */; };
+		78CC19412CF2BD7300CE3B7F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 78CC19402CF2BD7300CE3B7F /* FirebaseFirestore */; };
+		78CC19432CF2BD7300CE3B7F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 78CC19422CF2BD7300CE3B7F /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		78918C1A2CEC5E0C00B6B503 /* Joes Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joes Pizza.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +57,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A67AD52D03FBE300107394 /* StripePayments in Frameworks */,
+				78CC193D2CF2BD7300CE3B7F /* FirebaseAnalytics in Frameworks */,
+				78CC19432CF2BD7300CE3B7F /* FirebaseStorage in Frameworks */,
+				788719DD2D02A1A800F14C2D /* GooglePlacesSwift in Frameworks */,
+				78A67ACD2D03EA0C00107394 /* StripeIdentity in Frameworks */,
+				78A67AD32D03FBE300107394 /* StripePaymentSheet in Frameworks */,
+				78A67AD72D03FBE300107394 /* StripePaymentsUI in Frameworks */,
+				78A67ACB2D03EA0C00107394 /* StripeFinancialConnections in Frameworks */,
+				78A67AC72D03EA0C00107394 /* StripeApplePay in Frameworks */,
+				788719D82D02960E00F14C2D /* GoogleMaps in Frameworks */,
+				789A109A2D063F1900F72610 /* SDWebImageMapKit in Frameworks */,
+				788719DB2D02A1A800F14C2D /* GooglePlaces in Frameworks */,
+				78A67AC52D03EA0C00107394 /* Stripe in Frameworks */,
+				78A67AD12D03EF4200107394 /* FirebaseFunctions in Frameworks */,
+				78CC193F2CF2BD7300CE3B7F /* FirebaseAuth in Frameworks */,
+				78A67AC92D03EA0C00107394 /* StripeCardScan in Frameworks */,
+				78CC19412CF2BD7300CE3B7F /* FirebaseFirestore in Frameworks */,
+				789A10982D063F1900F72610 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +117,24 @@
 			);
 			name = "Joes Pizza";
 			packageProductDependencies = (
+				78CC193C2CF2BD7300CE3B7F /* FirebaseAnalytics */,
+				78CC193E2CF2BD7300CE3B7F /* FirebaseAuth */,
+				78CC19402CF2BD7300CE3B7F /* FirebaseFirestore */,
+				78CC19422CF2BD7300CE3B7F /* FirebaseStorage */,
+				788719D72D02960E00F14C2D /* GoogleMaps */,
+				788719DA2D02A1A800F14C2D /* GooglePlaces */,
+				788719DC2D02A1A800F14C2D /* GooglePlacesSwift */,
+				78A67AC42D03EA0C00107394 /* Stripe */,
+				78A67AC62D03EA0C00107394 /* StripeApplePay */,
+				78A67AC82D03EA0C00107394 /* StripeCardScan */,
+				78A67ACA2D03EA0C00107394 /* StripeFinancialConnections */,
+				78A67ACC2D03EA0C00107394 /* StripeIdentity */,
+				78A67AD02D03EF4200107394 /* FirebaseFunctions */,
+				78A67AD22D03FBE300107394 /* StripePaymentSheet */,
+				78A67AD42D03FBE300107394 /* StripePayments */,
+				78A67AD62D03FBE300107394 /* StripePaymentsUI */,
+				789A10972D063F1900F72610 /* SDWebImage */,
+				789A10992D063F1900F72610 /* SDWebImageMapKit */,
 			);
 			productName = "Joes Pizza";
 			productReference = 78918C1A2CEC5E0C00B6B503 /* Joes Pizza.app */;
@@ -107,6 +164,13 @@
 			);
 			mainGroup = 78918C112CEC5E0C00B6B503;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				78CC193B2CF2BD7300CE3B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				788719D62D02960E00F14C2D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				788719D92D02A1A800F14C2D /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+				78A67AC32D03EA0C00107394 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
+				789A10962D063F1900F72610 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 78918C1B2CEC5E0C00B6B503 /* Products */;
 			projectDirPath = "";
@@ -143,8 +207,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Joes Pizza/Joes Pizza.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Joes Pizza/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -170,8 +236,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Joes Pizza/Joes Pizza.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Joes Pizza/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,6 +401,142 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		788719D62D02960E00F14C2D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.2.0;
+			};
+		};
+		788719D92D02A1A800F14C2D /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.2.0;
+			};
+		};
+		789A10962D063F1900F72610 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+		78A67AC32D03EA0C00107394 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.1.2;
+			};
+		};
+		78CC193B2CF2BD7300CE3B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		788719D72D02960E00F14C2D /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 788719D62D02960E00F14C2D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		788719DA2D02A1A800F14C2D /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 788719D92D02A1A800F14C2D /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+		788719DC2D02A1A800F14C2D /* GooglePlacesSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 788719D92D02A1A800F14C2D /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlacesSwift;
+		};
+		789A10972D063F1900F72610 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 789A10962D063F1900F72610 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		789A10992D063F1900F72610 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 789A10962D063F1900F72610 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		78A67AC42D03EA0C00107394 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A67AC32D03EA0C00107394 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = Stripe;
+		};
+		78A67AC62D03EA0C00107394 /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A67AC32D03EA0C00107394 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeApplePay;
+		};
+		78A67AC82D03EA0C00107394 /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A67AC32D03EA0C00107394 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeCardScan;
+		};
+		78A67ACA2D03EA0C00107394 /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A67AC32D03EA0C00107394 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeFinancialConnections;
+		};
+		78A67ACC2D03EA0C00107394 /* StripeIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A67AC32D03EA0C00107394 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeIdentity;
+		};
+		78A67AD02D03EF4200107394 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78CC193B2CF2BD7300CE3B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		78A67AD22D03FBE300107394 /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A67AC32D03EA0C00107394 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentSheet;
+		};
+		78A67AD42D03FBE300107394 /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A67AC32D03EA0C00107394 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePayments;
+		};
+		78A67AD62D03FBE300107394 /* StripePaymentsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A67AC32D03EA0C00107394 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentsUI;
+		};
+		78CC193C2CF2BD7300CE3B7F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78CC193B2CF2BD7300CE3B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		78CC193E2CF2BD7300CE3B7F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78CC193B2CF2BD7300CE3B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		78CC19402CF2BD7300CE3B7F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78CC193B2CF2BD7300CE3B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		78CC19422CF2BD7300CE3B7F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78CC193B2CF2BD7300CE3B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78918C122CEC5E0C00B6B503 /* Project object */;
 }
